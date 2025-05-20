@@ -36,8 +36,11 @@ https://open.data.gov.sa/ar/home
 
 https://dp.stats.gov.sa/dashboard
 
+Note : Preferably the data has more than 500 rows and 5 columns or more
+
 
 📋 Requirements:
+
 🔹 Phase 1: Extract
 Load raw data from a CSV, JSON, etc... or public API (use requests or pandas.read_*)
 
@@ -89,19 +92,21 @@ etl_pipeline.ipynb or .py script
 
 Cleaned dataset (CSV/DB)
 
+Project README file or markdown explanation within notebook
+
 SQL schema or .db file (if using SQLite)
 
 Optional: etl_dag.py if using Airflow
 
-Project README file or markdown explanation within notebook
 
 🧠 Evaluation Criteria:
-Area	Description	Points
-Extraction	Successfully loads raw data from source	10
-Transformation	Cleaning, formatting, adding logic columns, and documentation	20
-Loading	Final dataset correctly loaded into target format or DB	10
-Optional Automation	Airflow DAG runs successfully (optional but gives bonus)	+5
-Code & Structure	Clean, modular code with reusable functions, comments, and clear logic	5
-Documentation	Clear README/markdown explanation of each step and choices	5
-Presentation	Final short walkthrough or explanation during in-class demo	5
+
+- Extraction	successfully loads raw data from source	10
+- Transformation	Cleaning, formatting, adding logic columns, and documentation	20
+- Loading	Final dataset correctly loaded into target format or DB	10
+- Optional Automation	Airflow DAG runs successfully (optional but gives bonus)	+5
+- Code & Structure	Clean, modular code with reusable functions, comments, and clear logic	5
+- Documentation	Clear README/markdown explanation of each step and choices	5
+- Presentation	Final short walkthrough or explanation during in-class demo	5
+  
 Total		55 (+5 bonus)
