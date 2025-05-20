@@ -19,9 +19,22 @@ Airflow for automation (optional but encouraged)
 
 Jupyter Notebook for documentation & development
 
-🧪 Dataset Sources (to be updated) (Students may choose or be assigned one):
- - Kaggle
- - Github
+🧪 Dataset Sources
+Choose one public dataset from any of the following sources (or bring your own if approved by the instructor):
+
+Kaggle Datasets
+
+Data.gov
+
+Our World in Data
+
+OpenML
+
+https://data.gov.sa/
+
+https://open.data.gov.sa/ar/home
+
+https://dp.stats.gov.sa/dashboard
 
 
 📋 Requirements:
